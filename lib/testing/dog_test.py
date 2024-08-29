@@ -11,6 +11,7 @@ class TestDog:
 
     def test_is_class(self):
         '''is a class with the name "Dog"'''
+        
         fido = Dog()
         assert(type(fido) == Dog)
 
